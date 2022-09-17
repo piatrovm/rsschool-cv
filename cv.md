@@ -5,6 +5,7 @@
 ## Contact information:
 > **Phone:** +77478116482\
 > **Email:** maryana.piatrova@gmail.com\
+> **Discord:** @piatrovm\
 > [**LinkedIn**](https://www.linkedin.com/in/mariannapetrova/)
 
 ## Briefly About Myself:
