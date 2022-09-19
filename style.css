@@ -1,13 +1,18 @@
 body {
-    background-color: rgb(218, 158, 203);
+    background-color: rgb(237, 192, 226);
   }
-  
-  h1 {
+
+title {
     color: white;
     text-align: center;
   }
-  
-  p {
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+p {
     font-family: verdana;
     font-size: 14px;
   }
