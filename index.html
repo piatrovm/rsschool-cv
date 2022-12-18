@@ -1,109 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
-  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<body>
-  <header class="card_header">
-    <div class="position">
-        <h1>Maryana Piatrova</h1>
-        <h1>Junior Frontend Developer</h1>
+  <body>
+    <!-- Navigation -->
+    <nav class="navigation">
+      <a href="#name">Me</a>
+      <a href="#contacts">Contacts</a>
+      <a href="#about-myself">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#current-project">Work experience</a>
+      <a href="#education">Education</a>
+      <a href="#languages">Languages</a>
+    </nav>
+    <header class="header">
+      <div class="position">
+        <img class="header-image" src="assets/images/photo.png" alt="Maryana
+          Piatrova">
+        <div class="name">
+          <h1>Maryana Piatrova</h1>
+        </div>
+        <h3>Junior Frontend Developer</h3>
       </div>
-    <div class="container">
-      <div class="profile">
-        <h2>Contact Information</h2>
-        <div class="contacts" id="contacts">
-          <ul class="contacts-list">
-            <li class="contacts-items">
-              <p><b>Location: </b>Almaty, Kazakhstan</p>
-            </li>
-            <li class="contacts-items">
-              <p><b>Phone: </b>+7 747 811 64 82</p>
-            </li>
-            <li class="contacts-items">
-              <p><b>E-mail: </b><a class="social-link" href="mailto:maryana.piatrova@gmail.com">maryana.piatrova@gmail.com</a></p>
-            </li>
-            <li class="contacts-items">
-                <p><b>Linkedin: </b><a class="social-link" href="https://www.linkedin.com/in/mariannapetrova">Maryana Piatrova</a></p>
+      <div class="container">
+        <div class="profile">
+          <div class="contacts" id="contacts">
+            <h2>Contact Information</h2>
+            <ul class="contacts-list">
+              <li class="contacts-items">
+                <p><b>Location: </b>Almaty, Kazakhstan</p>
               </li>
-            <li class="contacts-items">
-              <p><b>Discord: </b>@piatrovm</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </header>
-  <main class="card_main">
-    <section id="about-myself">
-      <div class="container">
-        <div class="card about-myself">
-          <h2>About Myself</h2>
-          <p>More than 7 years of experience in the field of Software Testing and Quality Assurance, 2+ years of experience in JavaScript automation and Java.
-            Extensive experience in setting up automation test framework, CI/CD process, triaging and debugging logs planning and execution of tests, analysis and evaluation of results.
-            Wide experience in Agile methodology. Understanding of Systems Development Life Cycle methodologies and ability to follow, enhance and establish quality control processes on the project.
-            Mentoring in multiple JS Automation mentoring programs.
-          </p>
-          <ul>
-            <li>Team player with good communication and interpersonal skills;</li>
-            <li>Self-motivated and positive thinking;</li>
-            <li>Good organizational, written and verbal communication skills;</li>
-            <li>Strong problem solving and analytical skills.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section id="skills">
-      <div class="container">
-        <div class="card skills">
-          <h2>Skills</h2>
-          <ul>
-            <li>HTML, CSS, JavaScript, Cypress, WebDriverIO</li>
-            <li>Test Automation Frameworks, Automated Testing in JS</li>
-            <li>JavaScript</li>
-            <li>Continuous Integration: GitActions, Jenkins, Evergreen</li>
-            <li>Databases, MongoDB</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section id="current-project">
-        <div class="container">
-          <div class="card current-project">
-            <h2>Current Project</h2>
-            <ul>
-              <li>Vertex is an engineering company that's main product is a tax service, that is capable of making track of taxes paid by clients and provide them with a real-time report on the paid amounts</li>
+              <li class="contacts-items">
+                <p><b>Phone: </b>+7 747 811 64 82</p>
+              </li>
+              <li class="contacts-items">
+                <p><b>E-mail: </b><a class="social-link"
+                    href="mailto:maryana.piatrova@gmail.com">maryana.piatrova@gmail.com</a></p>
+              </li>
+              <li class="contacts-items">
+                <p><b>Linkedin: </b><a class="social-link"
+                    href="https://www.linkedin.com/in/mariannapetrova">Maryana
+                    Piatrova</a></p>
+              </li>
+              <li class="contacts-items">
+                <p><b>Discord: </b>@piatrovm</p>
+              </li>
             </ul>
-            <h3>Responsibilities</h3>
-            <ul>
-                <li>Creating and maintaining test automation framework for API services</li>
-                <li>Improving QA Processes with analytics dashboards in Jira</li>
-                <li>Analyzing the test run results after each deployment</li>
-                <li>Providing summary and analytics of test runs</li>
-                <li>Refactoring of the UI test automation framework</li>
-                <li>Knowledge sharing sessions for new QA Engineers</li>
-                <li>Improved Scrum Process with TeamRetro tool (provided demo to our Scrum Master)</li>
-              </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <!-- About Myself -->
+      <section id="about-myself">
+        <div class="container">
+          <div class="about-myself">
+            <h2>About Myself</h2>
+            <p>More than 7 years of experience in the field of Software Testing
+              and Quality Assurance, 3+ years of experience in JavaScript
+              automation and Java.
+              Extensive experience in setting up automation test framework,
+              CI/CD process, triaging and debugging logs, planning and execution
+              of tests, analysis and evaluation of results.
+              Wide experience in Agile methodology. Understanding of Systems
+              Development Life Cycle methodologies and ability to follow,
+              enhance and establish quality control processes on the project.
+              Mentoring in multiple JS Automation mentoring programs.
+            </p>
           </div>
         </div>
       </section>
-    <section id="languages">
-      <div class="container lang">
-        <div class="card languages">
-          <h2>Languages:</h2>
-          <ul>
-            <li>English B2</li>
-          </ul>
+      <!-- Skills -->
+      <section id="skills">
+        <div class="container">
+          <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>HTML, CSS, JavaScript, Cypress, WebDriverIO, PlayWright</li>
+              <li>Test Automation Frameworks, Automated Testing in JS</li>
+              <li>JavaScript</li>
+              <li>Continuous Integration: GitActions, Jenkins, Evergreen</li>
+              <li>Databases, MongoDB</li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </section>
-  </main>
- </body>
+      </section>
+      <!-- Experience -->
+      <section id="current-project">
+        <div class="container">
+          <div class="current-project">
+            <h2>Current Project</h2>
+            <ul>
+              <li> <a class="current-project-link"
+                  href="https://www.vertexinc.com/"> Vertex</a> is an
+                engineering company that's main product is a tax
+                service, that is capable of making track of taxes paid by
+                clients and provide them with a real-time report on the paid
+                amounts</li>
+            </ul>
+            <h3>Responsibilities</h3>
+            <ul>
+              <li>Creating and maintaining test automation framework for API
+                services</li>
+              <li>Improving QA Processes with analytics dashboards in Jira</li>
+              <li>Analyzing the test run results after each deployment</li>
+              <li>Providing summary and analytics of test runs</li>
+              <li>Refactoring of the UI test automation framework</li>
+              <li>Knowledge sharing sessions for new QA Engineers</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Education -->
+      <section id="education">
+        <div class="container lang">
+          <div class="education">
+            <h2>Education:</h2>
+            <ul>
+              <li>Gomel State University '2012</li>
+              <li>Itransition QA program '2014</li>
+              <li>EPAM Automation Training Program '2017</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Languages -->
+      <section id="languages">
+        <div class="container lang">
+          <div class="languages">
+            <h2>Languages:</h2>
+            <ul>
+              <li>English B2</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Code Examples -->
+      <section id="code">
+        <h3>Code examples</h3>
+        <pre><code>
+        // just a random code <br>
+        let getJoke = () => { <br>
+          jokeContainer.classList.remove("fade"); <br>
+          fetch(url) <br>
+          .then(data => data.json()) <br>
+          .then(item =>{ <br>
+              jokeContainer.textContent = `${item.joke}`; <br>
+              jokeContainer.classList.add("fade"); <br>
+          }); <br>
+      }
+            </code></pre>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <a class="footer-logo" href="https://github.com/piatrovm"><img
+            class="footer-logo" src="assets/images/github_logo.png" alt="GitHub
+            logo"></a>
+        <a class="footer-logo" href="https://rs.school/js/"><img
+            class="footer-logo" src="assets/images/rsschool_logo.svg" alt="RS
+            School logo"></a>
+        <p>2022</p>
+      </footer>
+    </main>
+  </body>
 </html>
